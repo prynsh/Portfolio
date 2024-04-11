@@ -6,6 +6,7 @@ import Landing from "../../Assets/Projects/Product_Details.jpg";
 import Drum_Kit from "../../Assets/Projects/Drum_Kit.png";
 import Simon from "../../Assets/Projects/Simon.png";
 import Youtube from "../../Assets/Projects/youtube_clone.png";
+import Dukaan from "../../Assets/Projects/Dukaan.png";
 
 function Projects() {
   return (
@@ -47,6 +48,19 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Dukaan}
+              isBlog={false}
+              title="Dukaan Assignment"
+              description="n this project, I really got into the nitty-gritty of making the frontend part of the website. I used TypeScript to make sure everything was in order and the code was solid. For making things look good, I used TailwindCSS, which made it easy to style everything exactly how I wanted. And with Next.js, I built a strong foundation for the website that made it load fast and work smoothly.
+
+              Throughout the project, I had to make sure that what I was building matched Dukaan's style and design. It was important that everything looked just right and worked smoothly. Whether I was making buttons that resized nicely on different screens or making sure the website loaded quickly, I put a lot of effort into making sure everything was top-notch."
+              ghLink="https://github.com/prynsh/Dukaan-Assignment"
+              demoLink="https://dukaan-assignment-ecru-tau.vercel.app/"
+            />
+          </Col>
+
 
           <Col md={4} className="project-card d-flex justify-content-center align-items-center">
             <ProjectCard
@@ -71,16 +85,7 @@ function Projects() {
               demoLink="https://prynsh.github.io/Drum-Roll-Website/"
             />
           </Col>
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col> */}
+         
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
