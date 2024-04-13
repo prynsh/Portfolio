@@ -7,6 +7,7 @@ import Drum_Kit from "../../Assets/Projects/Drum_Kit.png";
 import Simon from "../../Assets/Projects/Simon.png";
 import Youtube from "../../Assets/Projects/youtube_clone.png";
 import Dukaan from "../../Assets/Projects/Dukaan.png";
+import Dashboard from "../../Assets/Projects/Dashboard.png"
 
 function Projects() {
   return (
@@ -19,14 +20,25 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}> 
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Dashboard}
+              isBlog={false}
+              title="EasyPay"
+              description="EasyPay is a web application designed to simplify financial transactions among users. With its user-friendly interface, EasyPay offers seamless registration and sign-in functionalities, leading users to a dynamic dashboard where they can view other registered users and perform money transfers effortlessly. The platform ensures real-time balance updates, providing users with accurate and up-to-date account information after each transaction. EasyPay aims to streamline the process of peer-to-peer money transfers, making financial interactions swift and convenient for all users."
+              ghLink="https://github.com/prynsh/EasyPay"
+              demoLink="https://easy-pay-psi.vercel.app/"              
+            />
+          </Col>
+
+
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Landing}
               isBlog={false}
-              title="E-commerce App"
-              description="*E-commerce Frontend (In Progress)*
-
+              title="E-commerce App(In progress)"
+              description="In this project I have been
               Developing a responsive e-commerce frontend with React and Tailwind CSS. Features include product browsing, search, and cart management. Using modern UI/UX practices for engagement. Integrating with backend APIs for real-time data. Styling with Tailwind CSS for a visually appealing interface. Prioritizing code quality and performance."
               ghLink="https://github.com/prynsh/E-commerce-"
               // demoLink="https://editor.soumya-jit.tech/"              
