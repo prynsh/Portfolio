@@ -65,7 +65,7 @@ function Projects() {
               imgPath={Dukaan}
               isBlog={false}
               title="Dukaan Assignment"
-              description="TypeScript has been  used here to make sure everything was in order and the code was solid. For making things look good, TailwindCSS was used, which made it easy to style everything exactly how wanted. And with Next.js, a strong foundation for the website is built, that makes it load fast and work smoothly,  The expectation of the project was to match Dukaan's style and design. It was important that everything looked just right on different screens and worked smoothly."
+              description="This project was based on assignment by Dukaan(startup).TypeScript has been  used here to make sure everything was in order and the code was solid. For making things look good, TailwindCSS was used, which made it easy to style everything exactly how wanted. And with Next.js, a strong foundation for the website is built, that makes it load fast and work smoothly,  The expectation of the project was to match Dukaan's style and design. It was important that everything looked just right on different screens and worked smoothly."
               ghLink="https://github.com/prynsh/Dukaan-Assignment"
               demoLink="https://dukaan-assignment-ecru-tau.vercel.app/"
             />
