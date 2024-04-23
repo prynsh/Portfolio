@@ -7,7 +7,8 @@ import {
   DiNodejs,
   DiMongodb,
   DiGit,
-  
+  DiDocker,
+
 } from "react-icons/di";
 import {
   SiSolidity,
@@ -21,6 +22,8 @@ import {
   SiTailwindcss,
   SiTypescript,
   SiNextdotjs,
+  SiPrisma,
+  SiKubernetes,
 } from "react-icons/si";
 
 
@@ -89,9 +92,18 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPrisma />
+      </Col>
       
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKubernetes />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiSolidity />
