@@ -9,6 +9,7 @@ import Youtube from "../../Assets/Projects/youtube_clone.png";
 import Dukaan from "../../Assets/Projects/Dukaan.png";
 import Dashboard from "../../Assets/Projects/Dashboard.png"
 import Wordwall from "../../Assets/Projects/wordwall.png"
+import transfer  from "../../Assets/Projects/transfer.png";
 
 function Projects() {
   return (
@@ -33,6 +34,22 @@ function Projects() {
                and cart management. Using modern UI/UX practices for engagement. Integrating with backend APIs for real-time data. 
                Styling with Tailwind CSS for a visually appealing interface. Prioritizing code quality and performance."
               ghLink="https://github.com/prynsh/E-commerce-"             
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={transfer}
+              isBlog={false}
+              title="EasyPay (using Next.js)"
+              description="This project is a Next.js application enabling user authentication using NextAuth, sign-in, and money transfers among users.
+              It has a dynamic dashboard which displays account information about the user. It has a transactions page which displays all the transactions
+              made by the user and giving the type of it along with the timestamp and amount
+              It uses webhooks to add real-time money to user’s wallet and updates post-transaction, ensuring accurate and
+              up-to-date account information for all users. It Has a CI/CD pipeline for constant updates and PR’s made on github. This has been dockerized such that
+              whenever a PR is pushed to the github the dockerised file gets sent to the dockerhub and (AWS)EC2 instance pulls the image from dockerhub and updates it over there"
+              ghLink="https://github.com/prynsh/Easy_Pay-Next.js-"
+              // demoLink="https://easy-pay-psi.vercel.app/"              
             />
           </Col>
 
