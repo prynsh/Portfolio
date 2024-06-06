@@ -10,6 +10,7 @@ import Dukaan from "../../Assets/Projects/Dukaan.png";
 import Dashboard from "../../Assets/Projects/Dashboard.png"
 import Wordwall from "../../Assets/Projects/wordwall.png"
 import transfer  from "../../Assets/Projects/transfer.png";
+import bookmark from "../../Assets/Projects/bookmark.png";
 
 function Projects() {
   return (
@@ -83,6 +84,23 @@ function Projects() {
                 swift and convenient for all users."
               ghLink="https://github.com/prynsh/EasyPay"
               demoLink="https://easy-pay-psi.vercel.app/"              
+            />
+          </Col>
+
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bookmark}
+              isBlog={false}
+              title="Youtube Bookmark Chrome Extension"
+              description="The Bookmark Extension for YouTube Videos enhances your viewing by allowing you to add, view, play, 
+              and delete bookmarks on YouTube videos. Easily add a bookmark at the current timestamp with the Add button, 
+              access all bookmarks from the extension tab, and jump to bookmarked moments or delete unneeded bookmarks. 
+              This extension is YouTube-specific and installs via cloning the GitHub repo, enabling Developer mode in your browser,
+               and loading the unpacked extension. Start by navigating to YouTube and using the extension's features."
+              ghLink="https://github.com/prynsh/YT-Extension"
+              // demoLink="https://easy-pay-psi.vercel.app/"              
             />
           </Col>
 
